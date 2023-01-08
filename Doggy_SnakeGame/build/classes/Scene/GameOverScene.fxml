@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene.GameOverSceneController">
+   <children>
+      <ImageView fitHeight="534.0" fitWidth="532.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Image/BlackBG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="534.0" fitWidth="532.0" layoutY="118.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Korone_Angry.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gameOverImageView" fitHeight="296.0" fitWidth="371.0" layoutX="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/GameOverFont.png" />
+         </image>
+      </ImageView>
+      <GridPane alignment="CENTER" layoutX="194.0" layoutY="388.0" prefHeight="103.0" prefWidth="144.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="newGameButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#buttonEvent" prefHeight="40.0" prefWidth="140.0" stylesheets="@../css/application.css" text="NewGame" textAlignment="CENTER" />
+            <Button fx:id="backToMenuButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#buttonEvent" prefHeight="40.0" prefWidth="140.0" stylesheets="@../css/application.css" text="BackToMenu" textAlignment="CENTER" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

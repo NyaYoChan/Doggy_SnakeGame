@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="525.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene.MenuSceneController">
+   <children>
+      <ImageView fitHeight="525.0" fitWidth="525.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Doggy_God.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="525.0" fitWidth="525.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Title.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="startButton" layoutX="220.0" layoutY="440.0" mnemonicParsing="false" onAction="#buttonEvent" prefHeight="40.0" prefWidth="85.0" stylesheets="@../css/application.css" text="Start" />
+   </children>
+</AnchorPane>
