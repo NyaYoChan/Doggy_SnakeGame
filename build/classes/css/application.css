@@ -1,0 +1,26 @@
+.root{
+    -fx-background-color: #1f1e33;
+}
+
+.button{
+    -fx-font-family: "Microsoft YaHei";
+    -fx-font-size: 16;
+    -fx-text-fill: #1f1e33;
+    -fx-base: #f4f4f9;
+    -fx-background-color: #f4f4f9;
+    -fx-border-color: #f4f4f9;
+    -fx-border-radius: 2;
+}
+
+.button:hover{
+    -fx-base: #8785b7;
+    -fx-background-color: #8785b7;
+    -fx-border-color: #f4f4f9;
+}
+
+.button:pressed{
+    -fx-text-fill: #f4f4f9;
+    -fx-base: #1f1e33;
+    -fx-background-color: #1f1e33;
+    -fx-border-color: #8785b7;
+}
