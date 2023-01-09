@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="595.0" prefWidth="595.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene.MenuSceneController">
+   <children>
+      <ImageView fitHeight="595.0" fitWidth="595.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Image/Free_Rotating_Stripes_Background_Animation.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="384.0" fitWidth="595.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Doggy_God.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="254.0" fitWidth="595.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Title.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="startButton" layoutX="255.0" layoutY="503.0" mnemonicParsing="false" onAction="#buttonEvent" prefHeight="40.0" prefWidth="85.0" stylesheets="@../css/application.css" text="Start" />
+   </children>
+</AnchorPane>
